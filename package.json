@@ -1,0 +1,32 @@
+{
+  "name": "@4is-alfred/hue-lights",
+  "version": "0.0.1",
+  "description": "A simple library for interacting with Philips Hue lights.",
+  "main": "dist/index.js",
+  "scripts": {
+    "package": "tsc",
+    "pretty": "prettier --write ."
+  },
+  "keywords": [
+    "hue",
+    "philips",
+    "lights",
+    "api",
+    "philips-hue"
+  ],
+  "author": {
+    "name": "4lch4",
+    "email": "hey@4lch4.email",
+    "url": "https://alcha.org"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@4lch4/logger": "^1.7.4",
+    "node-hue-api": "^5.0.0-beta.13"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  }
+}
